@@ -1,0 +1,11 @@
+127.0.0.1 - - [22/May/2023:20:00:37 +0530] "GET /fileserver/ HTTP/1.1" 200 2173
+127.0.0.1 - - [22/May/2023:20:00:37 +0530] "GET /fileserver/css/main.css HTTP/1.1" 200 1147
+127.0.0.1 - - [22/May/2023:20:00:37 +0530] "GET /fileserver/css/login.css HTTP/1.1" 200 699
+127.0.0.1 - - [22/May/2023:20:00:39 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [22/May/2023:20:00:44 +0530] "GET /fileserver/home.jsp HTTP/1.1" 200 2928
+127.0.0.1 - - [22/May/2023:20:00:54 +0530] "POST /fileserver/j_security_check HTTP/1.1" 200 998
+127.0.0.1 - - [22/May/2023:20:00:54 +0530] "GET /fileserver/css/error.css HTTP/1.1" 200 160
+127.0.0.1 - ashwin [22/May/2023:20:01:41 +0530] "POST /fileserver/j_security_check HTTP/1.1" 303 -
+127.0.0.1 - ashwin [22/May/2023:20:01:41 +0530] "GET /fileserver/home.jsp HTTP/1.1" 200 5492
+127.0.0.1 - ashwin [22/May/2023:20:01:41 +0530] "GET /fileserver/css/home.css HTTP/1.1" 200 2434
+127.0.0.1 - ashwin [22/May/2023:20:01:45 +0530] "GET /fileserver/listfiles HTTP/1.1" 200 153

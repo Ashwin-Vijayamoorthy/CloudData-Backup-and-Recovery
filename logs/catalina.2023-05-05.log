@@ -1,0 +1,85 @@
+05-May-2023 09:49:01.183 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [maxPostSize] to [134217728000]
+05-May-2023 09:49:01.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+05-May-2023 09:49:01.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+05-May-2023 09:49:01.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+05-May-2023 09:49:01.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-May-2023 09:49:01.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-May-2023 09:49:01.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-May-2023 09:49:01.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+05-May-2023 09:49:01.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19.0.2+7-44
+05-May-2023 09:49:01.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-May-2023 09:49:01.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\Subjects\8th sem\Project\tomcat
+05-May-2023 09:49:01.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\Subjects\8th sem\Project\tomcat
+05-May-2023 09:49:01.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\Subjects\8th sem\Project\tomcat\conf\logging.properties
+05-May-2023 09:49:01.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 09:49:01.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 09:49:01.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 09:49:01.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-May-2023 09:49:01.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-May-2023 09:49:01.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-May-2023 09:49:01.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-May-2023 09:49:01.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-May-2023 09:49:01.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\Subjects\8th sem\Project\tomcat
+05-May-2023 09:49:01.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\Subjects\8th sem\Project\tomcat
+05-May-2023 09:49:01.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\Subjects\8th sem\Project\tomcat\temp
+05-May-2023 09:49:02.324 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+05-May-2023 09:49:02.558 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+05-May-2023 09:49:04.855 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-May-2023 09:49:05.168 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [5882] milliseconds
+05-May-2023 09:49:05.621 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-May-2023 09:49:05.621 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+05-May-2023 09:49:05.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\docs]
+05-May-2023 09:49:28.685 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-May-2023 09:49:29.123 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [281] milliseconds.
+05-May-2023 09:49:29.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\docs] has finished in [23,595] ms
+05-May-2023 09:49:29.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\examples]
+05-May-2023 09:49:46.327 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-May-2023 09:49:46.499 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\examples] has finished in [17,205] ms
+05-May-2023 09:49:46.499 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\fileserver]
+05-May-2023 09:49:46.514 WARNING [main] org.apache.catalina.realm.CombinedRealm.setCredentialHandler A CredentialHandler was set on an instance of the CombinedRealm (or a sub-class of CombinedRealm). CombinedRealm doesn't use a configured CredentialHandler. Is this a configuration error?
+05-May-2023 09:49:50.608 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fadmin] used in an <auth-constraint> without being defined in a <security-role>
+05-May-2023 09:49:50.608 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fuser] used in an <auth-constraint> without being defined in a <security-role>
+05-May-2023 09:49:50.968 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-May-2023 09:49:51.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\fileserver] has finished in [4,531] ms
+05-May-2023 09:49:51.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\host-manager]
+05-May-2023 09:50:06.000 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-May-2023 09:50:06.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\host-manager] has finished in [15,079] ms
+05-May-2023 09:50:06.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\manager]
+05-May-2023 09:50:21.563 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-May-2023 09:50:21.563 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\manager] has finished in [15,454] ms
+05-May-2023 09:50:21.579 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\ROOT]
+05-May-2023 09:50:36.361 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-May-2023 09:50:36.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\ROOT] has finished in [14,798] ms
+05-May-2023 09:50:36.377 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-May-2023 09:50:36.674 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [91503] milliseconds
+05-May-2023 10:25:48.659 INFO [http-nio-8080-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03iU&i0x7ff0xcaK0x870xbe ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+05-May-2023 10:27:48.703 INFO [http-nio-8080-exec-10] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03@*v0x0an0xdad0xe60xf80xdf0xc80x8e0xc10x100xeau0xc50x840x9d0xdd0x9f0xed0x82O0x09`0x1f0xe40x14Ba0x0c ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+05-May-2023 14:01:46.208 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-May-2023 14:01:46.223 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-May-2023 14:01:46.413 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [fileserver] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-May-2023 14:01:46.444 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-May-2023 14:01:46.502 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

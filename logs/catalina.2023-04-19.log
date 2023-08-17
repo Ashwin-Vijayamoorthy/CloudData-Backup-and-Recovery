@@ -1,0 +1,207 @@
+19-Apr-2023 23:11:44.403 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [maxPostSize] to [134217728000]
+19-Apr-2023 23:11:45.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+19-Apr-2023 23:11:45.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+19-Apr-2023 23:11:45.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+19-Apr-2023 23:11:45.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Apr-2023 23:11:45.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Apr-2023 23:11:45.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Apr-2023 23:11:45.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+19-Apr-2023 23:11:45.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19.0.2+7-44
+19-Apr-2023 23:11:45.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Apr-2023 23:11:45.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\Subjects\8th sem\Project\tomcat
+19-Apr-2023 23:11:45.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\Subjects\8th sem\Project\tomcat
+19-Apr-2023 23:11:45.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\Subjects\8th sem\Project\tomcat\conf\logging.properties
+19-Apr-2023 23:11:45.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Apr-2023 23:11:45.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Apr-2023 23:11:45.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Apr-2023 23:11:45.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Apr-2023 23:11:45.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Apr-2023 23:11:45.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Apr-2023 23:11:45.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Apr-2023 23:11:45.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Apr-2023 23:11:45.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\Subjects\8th sem\Project\tomcat
+19-Apr-2023 23:11:45.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\Subjects\8th sem\Project\tomcat
+19-Apr-2023 23:11:45.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\Subjects\8th sem\Project\tomcat\temp
+19-Apr-2023 23:11:45.509 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+19-Apr-2023 23:11:45.697 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+19-Apr-2023 23:11:48.128 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Apr-2023 23:11:48.573 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [5788] milliseconds
+19-Apr-2023 23:11:49.092 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Apr-2023 23:11:49.113 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+19-Apr-2023 23:11:49.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\docs]
+19-Apr-2023 23:12:22.834 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:14:37.934 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [147] milliseconds.
+19-Apr-2023 23:14:38.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\docs] has finished in [168,874] ms
+19-Apr-2023 23:14:38.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\examples]
+19-Apr-2023 23:15:01.951 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:15:02.159 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\examples] has finished in [24,054] ms
+19-Apr-2023 23:15:02.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\fileserver]
+19-Apr-2023 23:15:02.217 WARNING [main] org.apache.catalina.realm.CombinedRealm.setCredentialHandler A CredentialHandler was set on an instance of the CombinedRealm (or a sub-class of CombinedRealm). CombinedRealm doesn't use a configured CredentialHandler. Is this a configuration error?
+19-Apr-2023 23:15:07.745 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fadmin] used in an <auth-constraint> without being defined in a <security-role>
+19-Apr-2023 23:15:07.748 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fuser] used in an <auth-constraint> without being defined in a <security-role>
+19-Apr-2023 23:15:08.359 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:15:08.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\fileserver] has finished in [6,292] ms
+19-Apr-2023 23:15:08.462 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\host-manager]
+19-Apr-2023 23:15:28.149 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:15:28.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\host-manager] has finished in [19,841] ms
+19-Apr-2023 23:15:28.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\manager]
+19-Apr-2023 23:15:46.879 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:15:46.920 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\manager] has finished in [18,603] ms
+19-Apr-2023 23:15:46.929 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\ROOT]
+19-Apr-2023 23:16:05.364 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:16:05.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\ROOT] has finished in [18,448] ms
+19-Apr-2023 23:16:05.393 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Apr-2023 23:16:05.760 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [257155] milliseconds
+19-Apr-2023 23:23:39.833 INFO [http-nio-8080-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xcf0x980xd50xf00x8ds0x910xa0:0xa80x080xd60xaeMG!0x010x990x000xc8g0x9b0xc1pV0xc30xe5x0x14A0xb2r ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+19-Apr-2023 23:33:34.156 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/fileserver]
+19-Apr-2023 23:33:34.185 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [fileserver] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Apr-2023 23:33:34.301 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\fileserver]
+19-Apr-2023 23:33:34.325 WARNING [Catalina-utility-1] org.apache.catalina.realm.CombinedRealm.setCredentialHandler A CredentialHandler was set on an instance of the CombinedRealm (or a sub-class of CombinedRealm). CombinedRealm doesn't use a configured CredentialHandler. Is this a configuration error?
+19-Apr-2023 23:33:40.032 WARNING [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fuser] used in an <auth-constraint> without being defined in a <security-role>
+19-Apr-2023 23:33:40.033 WARNING [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fadmin] used in an <auth-constraint> without being defined in a <security-role>
+19-Apr-2023 23:33:40.244 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:33:40.262 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\fileserver] has finished in [5,961] ms
+19-Apr-2023 23:35:02.228 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [maxPostSize] to [134217728000]
+19-Apr-2023 23:35:02.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+19-Apr-2023 23:35:02.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+19-Apr-2023 23:35:02.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+19-Apr-2023 23:35:02.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Apr-2023 23:35:02.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Apr-2023 23:35:02.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Apr-2023 23:35:02.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+19-Apr-2023 23:35:02.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19.0.2+7-44
+19-Apr-2023 23:35:02.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Apr-2023 23:35:02.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\Subjects\8th sem\Project\tomcat
+19-Apr-2023 23:35:02.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\Subjects\8th sem\Project\tomcat
+19-Apr-2023 23:35:02.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\Subjects\8th sem\Project\tomcat\conf\logging.properties
+19-Apr-2023 23:35:02.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Apr-2023 23:35:02.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Apr-2023 23:35:02.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Apr-2023 23:35:02.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Apr-2023 23:35:02.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Apr-2023 23:35:02.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Apr-2023 23:35:02.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Apr-2023 23:35:02.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Apr-2023 23:35:02.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\Subjects\8th sem\Project\tomcat
+19-Apr-2023 23:35:02.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\Subjects\8th sem\Project\tomcat
+19-Apr-2023 23:35:02.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\Subjects\8th sem\Project\tomcat\temp
+19-Apr-2023 23:35:02.753 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+19-Apr-2023 23:35:02.794 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+19-Apr-2023 23:35:04.897 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Apr-2023 23:35:05.026 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3631] milliseconds
+19-Apr-2023 23:35:05.280 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Apr-2023 23:35:05.283 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+19-Apr-2023 23:35:05.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\docs]
+19-Apr-2023 23:35:31.994 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:35:32.229 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\docs] has finished in [26,904] ms
+19-Apr-2023 23:35:32.233 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\examples]
+19-Apr-2023 23:35:53.551 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:35:53.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\examples] has finished in [21,538] ms
+19-Apr-2023 23:35:53.771 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\fileserver]
+19-Apr-2023 23:35:53.795 WARNING [main] org.apache.catalina.realm.CombinedRealm.setCredentialHandler A CredentialHandler was set on an instance of the CombinedRealm (or a sub-class of CombinedRealm). CombinedRealm doesn't use a configured CredentialHandler. Is this a configuration error?
+19-Apr-2023 23:35:57.637 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fuser] used in an <auth-constraint> without being defined in a <security-role>
+19-Apr-2023 23:35:57.644 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fadmin] used in an <auth-constraint> without being defined in a <security-role>
+19-Apr-2023 23:35:58.115 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:35:58.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\fileserver] has finished in [4,374] ms
+19-Apr-2023 23:35:58.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\host-manager]
+19-Apr-2023 23:36:16.491 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:36:16.530 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\host-manager] has finished in [18,370] ms
+19-Apr-2023 23:36:16.532 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\manager]
+19-Apr-2023 23:36:36.324 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:39:08.100 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\manager] has finished in [171,567] ms
+19-Apr-2023 23:39:08.130 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\ROOT]
+19-Apr-2023 23:39:26.257 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:40:21.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\ROOT] has finished in [73,135] ms
+19-Apr-2023 23:40:21.325 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Apr-2023 23:40:21.477 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [316426] milliseconds
+19-Apr-2023 23:49:43.299 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/fileserver]
+19-Apr-2023 23:49:43.339 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [fileserver] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Apr-2023 23:49:43.477 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\fileserver]
+19-Apr-2023 23:49:43.684 WARNING [Catalina-utility-2] org.apache.catalina.realm.CombinedRealm.setCredentialHandler A CredentialHandler was set on an instance of the CombinedRealm (or a sub-class of CombinedRealm). CombinedRealm doesn't use a configured CredentialHandler. Is this a configuration error?
+19-Apr-2023 23:49:49.068 WARNING [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fuser] used in an <auth-constraint> without being defined in a <security-role>
+19-Apr-2023 23:49:49.095 WARNING [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fadmin] used in an <auth-constraint> without being defined in a <security-role>
+19-Apr-2023 23:49:49.502 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:49:49.531 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\fileserver] has finished in [6,056] ms
+19-Apr-2023 23:50:25.591 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [maxPostSize] to [134217728000]
+19-Apr-2023 23:50:25.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+19-Apr-2023 23:50:25.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+19-Apr-2023 23:50:25.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+19-Apr-2023 23:50:25.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Apr-2023 23:50:25.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Apr-2023 23:50:25.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Apr-2023 23:50:25.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+19-Apr-2023 23:50:25.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19.0.2+7-44
+19-Apr-2023 23:50:25.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Apr-2023 23:50:25.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\Subjects\8th sem\Project\tomcat
+19-Apr-2023 23:50:25.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\Subjects\8th sem\Project\tomcat
+19-Apr-2023 23:50:25.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\Subjects\8th sem\Project\tomcat\conf\logging.properties
+19-Apr-2023 23:50:25.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Apr-2023 23:50:25.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Apr-2023 23:50:25.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Apr-2023 23:50:25.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Apr-2023 23:50:25.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Apr-2023 23:50:25.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Apr-2023 23:50:25.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Apr-2023 23:50:25.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Apr-2023 23:50:25.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\Subjects\8th sem\Project\tomcat
+19-Apr-2023 23:50:25.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\Subjects\8th sem\Project\tomcat
+19-Apr-2023 23:50:25.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\Subjects\8th sem\Project\tomcat\temp
+19-Apr-2023 23:50:25.967 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+19-Apr-2023 23:50:25.992 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+19-Apr-2023 23:50:27.715 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Apr-2023 23:50:27.962 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3269] milliseconds
+19-Apr-2023 23:50:28.183 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Apr-2023 23:50:28.201 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+19-Apr-2023 23:50:28.241 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\docs]
+19-Apr-2023 23:51:00.316 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:51:00.743 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [215] milliseconds.
+19-Apr-2023 23:51:00.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\docs] has finished in [32,685] ms
+19-Apr-2023 23:51:00.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\examples]
+19-Apr-2023 23:51:25.204 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:51:25.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\examples] has finished in [24,527] ms
+19-Apr-2023 23:51:25.461 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\fileserver]
+19-Apr-2023 23:51:25.492 WARNING [main] org.apache.catalina.realm.CombinedRealm.setCredentialHandler A CredentialHandler was set on an instance of the CombinedRealm (or a sub-class of CombinedRealm). CombinedRealm doesn't use a configured CredentialHandler. Is this a configuration error?
+19-Apr-2023 23:51:29.373 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fuser] used in an <auth-constraint> without being defined in a <security-role>
+19-Apr-2023 23:51:29.378 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fadmin] used in an <auth-constraint> without being defined in a <security-role>
+19-Apr-2023 23:51:29.864 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:51:29.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\fileserver] has finished in [4,433] ms
+19-Apr-2023 23:51:29.901 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\host-manager]
+19-Apr-2023 23:51:48.491 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:51:48.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\host-manager] has finished in [18,632] ms
+19-Apr-2023 23:51:48.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\manager]
+19-Apr-2023 23:52:07.419 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:52:07.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\manager] has finished in [18,910] ms
+19-Apr-2023 23:52:07.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\ROOT]
+19-Apr-2023 23:52:25.424 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Apr-2023 23:52:25.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Subjects\8th sem\Project\tomcat\webapps\ROOT] has finished in [17,994] ms
+19-Apr-2023 23:52:25.461 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Apr-2023 23:52:25.611 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [117610] milliseconds
+19-Apr-2023 23:58:58.673 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+19-Apr-2023 23:58:58.686 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Error stopping Catalina
+	java.net.ConnectException: Connection refused: connect
+		at java.base/sun.nio.ch.Net.connect0(Native Method)
+		at java.base/sun.nio.ch.Net.connect(Net.java:579)
+		at java.base/sun.nio.ch.Net.connect(Net.java:568)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:576)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:666)
+		at java.base/java.net.Socket.connect(Socket.java:600)
+		at java.base/java.net.Socket.<init>(Socket.java:509)
+		at java.base/java.net.Socket.<init>(Socket.java:289)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:692)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:393)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:483)
