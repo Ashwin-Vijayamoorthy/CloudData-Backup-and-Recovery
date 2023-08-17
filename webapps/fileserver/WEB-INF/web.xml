@@ -1,0 +1,87 @@
+<web-app>  
+    <resource-ref>
+        <description>DB Connection</description>
+        <res-ref-name>jdbc/fileserver</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+
+    <login-config>
+        <auth-method>FORM</auth-method>
+        <form-login-config>
+            <form-login-page>/login.jsp</form-login-page>
+            <form-error-page>/error.jsp</form-error-page>
+        </form-login-config>
+    </login-config>
+
+
+    <servlet>  
+    <servlet-name>resetlogin</servlet-name>  
+    <servlet-class>ResetLogin</servlet-class>  
+    </servlet>
+    <servlet>  
+    <servlet-name>CreateUser</servlet-name>  
+    <servlet-class>CreateUser</servlet-class>  
+    </servlet>
+    <servlet>  
+    <servlet-name>FileUpload</servlet-name>  
+    <servlet-class>FileUpload</servlet-class>  
+    </servlet>
+    <servlet>  
+    <servlet-name>FileList</servlet-name>  
+    <servlet-class>FileList</servlet-class>  
+    </servlet>
+    <servlet>  
+    <servlet-name>DownloadFile</servlet-name>  
+    <servlet-class>DownloadFile</servlet-class>  
+    </servlet>
+    <servlet>  
+    <servlet-name>FolderView</servlet-name>  
+    <servlet-class>FolderView</servlet-class>  
+    </servlet>
+
+    <servlet-mapping> 
+    <servlet-name>resetlogin</servlet-name>  
+    <url-pattern>/resetlogin</url-pattern>  
+    </servlet-mapping>
+    <servlet-mapping> 
+    <servlet-name>CreateUser</servlet-name>  
+    <url-pattern>/signup</url-pattern>  
+    </servlet-mapping>
+    <servlet-mapping> 
+    <servlet-name>FileUpload</servlet-name>  
+    <url-pattern>/FileUpload</url-pattern>  
+    </servlet-mapping>
+    <servlet-mapping> 
+    <servlet-name>FileList</servlet-name>  
+    <url-pattern>/listfiles</url-pattern>  
+    </servlet-mapping>
+    <servlet-mapping> 
+    <servlet-name>DownloadFile</servlet-name>  
+    <url-pattern>/downloadFile</url-pattern>  
+    </servlet-mapping>
+    <servlet-mapping> 
+    <servlet-name>FolderView</servlet-name>  
+    <url-pattern>/folderView</url-pattern>  
+    </servlet-mapping>
+
+    <security-constraint>
+        <web-resource-collection>
+            <url-pattern>/home.jsp</url-pattern>
+            <url-pattern>/listfiles</url-pattern>
+            <url-pattern>/downloadFile</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>fuser</role-name>
+        </auth-constraint>
+    </security-constraint>
+    <security-constraint>
+        <web-resource-collection>
+            <url-pattern>/admin.jsp</url-pattern>
+            <url-pattern>/folderView</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>fadmin</role-name>
+        </auth-constraint>
+    </security-constraint>
+</web-app> 

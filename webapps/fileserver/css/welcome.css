@@ -1,0 +1,131 @@
+h1{
+    color:var(--accent-ceramic);
+}
+
+h4 {
+  color: white;
+  font-weight: 400;
+}
+
+.main-container {
+    align-items: flex-start;
+    line-height: 1.25;
+  }
+  
+  .profile {
+    margin-top: 4rem;
+    width: 80vw;
+    background-color: var(--primary-dark);
+    padding: 2rem;
+    color: var(--accent-ceramic);
+    border-radius: 0.3rem;
+  }
+  
+  .sql-table {
+    border: 0.05rem solid var(--secondary-dark);
+    border-collapse: collapse;
+    margin: 0rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-radius: 0.4rem;
+    width: 100%;
+    /* .sql-table-layout: fixed; */
+  }
+  
+  
+  .butt {
+    background-color: var(--accent-aqua);
+    width: 8rem;
+    align-self: flex-start;
+  }
+  
+  
+  
+  .sql-table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  .sql-table tr {
+    background-color: rgb(43, 49, 58);
+    border: 1px solid rgb(62, 67, 75);
+    color: var(--accent-ceramic);
+  
+    padding: .35em;
+  }
+  
+  .sql-table th,
+  .sql-table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  .sql-table th {
+    font-size: .85em;
+    background-color: rgb(53, 59, 68);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .sql-table {
+      border: 0;
+    }
+  
+    .sql-table caption {
+      font-size: 1.3em;
+    }
+  
+    .sql-table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+  
+    .sql-table tr {
+      border-bottom: 3px solid var(--secondary-dark);
+      display: block;
+      margin-bottom: .625em;
+    }
+  
+    .sql-table td {
+      border-bottom: 1px solid var(--secondary-dark);
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+  
+    .sql-table td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  
+    .sql-table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  
+  .pageno{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:var(--accent-ceramic);
+  }
+  
+  @media screen and (max-width: 992px) {
+    .profile {
+      margin-top: 1rem;
+      margin-bottom: 4rem;
+    }
+  
+    .sql-table {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }

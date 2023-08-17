@@ -1,0 +1,21 @@
+<Context>
+<Resource name="jdbc/fileserver" auth="Container" type="javax.sql.DataSource" maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+    username="postgres" password="1234" driverClassName="org.postgresql.Driver" url="jdbc:postgresql://localhost/fileserver?user=postgres&amp;password=1234"
+/>
+<Realm className="org.apache.catalina.realm.LockOutRealm">
+<Realm className="org.apache.catalina.realm.DataSourceRealm"
+        localDataSource="true"
+            dataSourceName="jdbc/fileserver"
+            userTable="users" userNameCol="username" userCredCol="password"
+            userRoleTable="roles" roleNameCol="rolename">
+            <CredentialHandler className="org.apache.catalina.realm.NestedCredentialHandler">
+            <CredentialHandler className="ArgonCredentialHandler"/>
+            </CredentialHandler>
+    </Realm>
+
+<CredentialHandler className="org.apache.catalina.realm.NestedCredentialHandler">
+            <CredentialHandler className="ArgonCredentialHandler"/>
+            </CredentialHandler>
+</Realm>
+
+</Context>
